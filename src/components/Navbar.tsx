@@ -9,11 +9,18 @@ import Logo from "@public/logo.jpeg";
 const Navbar = () => {
     const account = useActiveAccount();
 
-    const [activeTab, setActiveTab] = useState(() => {
-        return localStorage.getItem('activeTab') || 'inicio';
-    });
+    const [activeTab, setActiveTab] = useState('inicio');
 
     useEffect(() => {
+        // Solo se ejecuta en el cliente
+        const savedTab = localStorage.getItem('activeTab');
+        if (savedTab) {
+            setActiveTab(savedTab);
+        }
+    }, []);
+
+    useEffect(() => {
+        // Solo se ejecuta en el cliente
         localStorage.setItem('activeTab', activeTab);
     }, [activeTab]);
 

@@ -394,6 +394,14 @@
   dependencies:
     "@lit-labs/ssr-dom-shim" "^1.0.0"
 
+"@metamask/logo@^3.1.2":
+  version "3.1.2"
+  resolved "https://registry.npmjs.org/@metamask/logo/-/logo-3.1.2.tgz"
+  integrity sha512-j35bKtwgjSYHIw77KGokra2qXkuwna8V8YKv5IzNMbT5c6hP2yHy09ycrEgNDLRy3i7pRXnv7WteyoJKLq7ZjA==
+  dependencies:
+    gl-mat4 "1.1.4"
+    gl-vec3 "1.0.3"
+
 "@motionone/animation@^10.15.1", "@motionone/animation@^10.18.0":
   version "10.18.0"
   resolved "https://registry.npmjs.org/@motionone/animation/-/animation-10.18.0.tgz"
@@ -2924,6 +2932,16 @@ get-tsconfig@^4.5.0:
   integrity sha512-ZCuZCnlqNzjb4QprAzXKdpp/gh6KTxSJuw3IBsPnV/7fV4NxC9ckB+vPTt8w7fJA0TaSD7c55BR47JD6MEDyDw==
   dependencies:
     resolve-pkg-maps "^1.0.0"
+
+gl-mat4@1.1.4:
+  version "1.1.4"
+  resolved "https://registry.npmjs.org/gl-mat4/-/gl-mat4-1.1.4.tgz"
+  integrity sha512-3NrFjvQMNSITLncF5Xz7EqfzB3IZczfNuJ6+ZFf2ko8hKhKzp8UXrdaRWm3AvpoowKMtnFDE7YpV5uD9AIxltw==
+
+gl-vec3@1.0.3:
+  version "1.0.3"
+  resolved "https://registry.npmjs.org/gl-vec3/-/gl-vec3-1.0.3.tgz"
+  integrity sha512-B4cOpz3vpwRwkmjVsv+JKgBlPOFSLQApDAaUFrowXPgx6Y/SOhTmeciOKHvcFqls6DsGuZ+YHXo9Py5oVia7bA==
 
 glob-parent@^5.1.2:
   version "5.1.2"
