@@ -28,7 +28,6 @@
 }
 .skills__header {
 	padding: 5px 5px;
-	font-weight: semibold;
 	text-transform: uppercase;
 	border-bottom: 1px solid rgba(var(--color-blue), 1);
 	margin-bottom: 10px;
